@@ -11,15 +11,25 @@ RecipeCreatedDate
 
 tblIngredient 
 -----------------
-IngredientName
 IngredientId
+IngredientRecipeId
+IngredientAmount
+IngredientUnitSingular
 IngredientNotes
+
+tblplIngredient 
+-----------------
+plIngredientId
+plIngredientName
+plIngredientNotes
 
 tblInstruction
 -----------------
 InstructionText
 InstructionStepNumber
 InstructionId
+InstructionTime
+InstructionTimeType (prep work or cook time)
 
 tblAuthor
 -----------------
