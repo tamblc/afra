@@ -29,7 +29,7 @@ InstructionText
 InstructionStepNumber
 InstructionId
 InstructionTime
-InstructionTimeType (prep work or cook time)
+InstructionTimeTypeId (prep work or cook time)
 
 tblAuthor
 -----------------
