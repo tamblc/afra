@@ -1,5 +1,5 @@
 CREATE TABLE tblTimeType (
-	TimeTypeId INT,
+	TimeTypeId INT NOT NULL,
 	TimeType VARCHAR(250)
 );
 
@@ -10,9 +10,9 @@ INSERT INTO tblTimeType (TimeTypeId, TimeType)
 VALUES (2, 'Cook');
 
 CREATE TABLE tblInstruction (
-	InstructionText VARCHAR(1000),
+	InstructionText VARCHAR(1000) NOT NULL,
 	InstructionStepNumber INT,
-	InstructionId INT,
+	InstructionId INT NOT NULL,
 	InstructionTime TIME,
 	-- (prep work or cook time), this will be so that I can measure how long a recipe will take
 	InstructionTimeTypeId INT, 

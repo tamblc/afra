@@ -1,11 +1,11 @@
 CREATE TABLE tblplIngredient(
-	plIngredientId INT,
+	plIngredientId INT NOT NULL,
 	plIngredientName VARCHAR(250),
 	plIngredientNotes VARCHAR(1000)
 );
 
 CREATE TABLE tblIngredient(
-	IngredientId INT,
+	IngredientId INT NOT NULL,
 	IngredientRecipeId VARCHAR(250),
 	IngredientAmount INT,
 	IngredientUnitSingular VARCHAR(250),
